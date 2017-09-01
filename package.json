@@ -1,0 +1,19 @@
+{
+  "name": "electron-with-ts-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output/index.js",
+  "scripts": {
+    "start": "electron .",
+    "transpile": "tsc",
+    "transpile:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
